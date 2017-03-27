@@ -1,0 +1,24 @@
+{
+  "name": "agar.io",
+  "version": "1.0.0",
+  "description": "### Background",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whasting/agar.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whasting/agar.io/issues"
+  },
+  "homepage": "https://github.com/whasting/agar.io#readme",
+  "dependencies": {
+    "paper": "^0.10.3",
+    "webpack": "^2.3.2"
+  }
+}
