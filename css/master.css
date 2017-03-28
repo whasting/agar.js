@@ -5,7 +5,7 @@ body, html {
   overflow: hidden;
 }
 
-#background-canvas, #cell-canvas {
+#game-canvas {
   position: absolute;
   top: 0;
   right: 0;
