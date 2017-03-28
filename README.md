@@ -26,7 +26,6 @@ In this version of agar.io, players will be able to:
 - [ ] Navigate their cell around the game board
 - [ ] Eat smaller cells
 - [ ] Be eaten by larger cells
-- [ ] Split their cell
 
 This project will also include:
 
@@ -99,5 +98,6 @@ for the day:
 
 ### Bonus Features
 
+- [ ] Allow cells to split
 - [ ] Add a `Virus` class to the game
 - [ ] Allow cells to eject mass
