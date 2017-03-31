@@ -21,13 +21,7 @@ Directions:
 - [ ] JavaScript
 - [ ] HTML5 Canvas
 
-## Features & Implementation
-
-## Cursor Based Movement
-
-## Panning "Camera"
-
-## Computer AI
+[agar](docs/images/agar.png)
 
 ## The Future
 
