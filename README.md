@@ -21,7 +21,7 @@ Directions:
 - [ ] JavaScript
 - [ ] HTML5 Canvas
 
-[agar](docs/images/agar.png)
+![agar](docs/images/agar.png)
 
 ## The Future
 
