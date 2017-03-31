@@ -50,6 +50,10 @@ body, html {
   line-height: 1.15;
 }
 
+.agar-link {
+  text-decoration: underline;
+}
+
 #start-button {
   padding:8px 35px;
   margin: 30px 0;
@@ -61,6 +65,22 @@ body, html {
 }
 
 #start-button:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+  transition: filter 0.2s;
+}
+
+.start-button {
+  padding:8px 35px;
+  margin: 30px 0;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+.start-button:hover {
   cursor: pointer;
   filter: brightness(85%);
   transition: filter 0.2s;
@@ -78,4 +98,72 @@ body, html {
   bottom: 0;
   right: 0;
   margin: 0 25px 25px 0;
+}
+
+#win {
+  position: absolute;
+  width: 400px;
+  height: 175px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-weight: bold;
+  padding: 25px 0 0 0;
+  display: none;
+}
+
+#lose {
+  position: absolute;
+  width: 400px;
+  height: 175px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  font-weight: bold;
+  padding: 25px 0 0 0;
+  display: none;
+}
+
+#win-button {
+  padding:8px 35px;
+  margin: 30px 0;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+#win-button:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+  transition: filter 0.2s;
+}
+
+#lose-button {
+  padding:8px 35px;
+  margin: 30px 0;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
+
+#lose-button:hover {
+  cursor: pointer;
+  filter: brightness(85%);
+  transition: filter 0.2s;
+}
+
+.win-title {
+  font-size: 36px;
 }
